@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Exercitando o conteúdo aprendido até agora!</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Aplicando o que foi estudado até agora.</h1>
+    <h2>Sumário</h2>
+    <ol>
+        <li>Hierarquia de Títulos</li>
+        <li>Parágrafo <em>Lorem</em></li>
+        <li>Negrito (semântico e não semântico</li>
+        <li>Itálico (semântico e não semântico)</li>
+        <li>Marcador</li>
+        <li>Fontes de tamanhos variáveis</li>
+        <ul type="square">
+            <li>Letras grandes usando a tag &lt;big&gt;</li>
+            <li>Letras pequenas usando a tag &lt;small&gt;</li>
+        </ul>
+        <li>Texto inserido</li>
+        <li>Texto deletado</li>
+        <li>Texto Sobrescrito e Subscrito</li>
+        <li>Código-Fonte</li>
+        <li>Citação</li>
+            <ul type="square">
+                <li>Simples</li>
+                <li>Em bloco</li>
+            </ul>
+        <li>Comentários passando o mouse (usando a tag &lt;abbr&gt;)</li>
+        <li>Texto invertido</li>
+        <li>Listas</li>
+        <ul type="square">
+            <li>Listas Ordenadas</li>
+            <li>Listas não ordenadas</li>
+            <li>Listas de definição / mistas</li>
+        </ul>
+    </ol>
+
+    <h2>1. Hierarquia de Títulos</h2>
+    <p>Temos uma hierarquia para os títulos que uma página da web possa ter. <br> São elas:</p>
+
+    <ul>
+        <li>&lt;h1&gt;</li>
+        <li>&lt;h2&gt;</li>
+        <li>&lt;h3&gt;</li>
+        <li>&lt;h4&gt;</li>
+        <li>&lt;h5&gt;</li>
+        <li>&lt;h6&gt;</li>
+    </ul>
+
+    <h2>2. Parágrafo <em>Lorem</em></h2>
+    <p>Caso você esteja digitando um parágrafo que não está construido, vc pode digitar <em>lorem</em> e um texto automático em <em>latim</em> irá aparecer como mágica. <br> Ex.:</p>
+
+    <blockquote>Digitado: <em>Lorem</em>: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus repellat accusantium optio amet excepturi tempora nisi facere, accusamus dolorem, repellendus corrupti nesciunt est? Tenetur eum nemo temporibus modi ab rem.</blockquote>
+
+    <h2>3. Negrito</h2>
+    <p>Existem duas formas de aplicar, uma de forma semântica e a outra não semântica. <br> Ex.: </p>
+    <blockquote><p>Usando a tag &lt;strong&gt;: Aqui estou aplicando um <strong>negrito semântico.</strong></p>
+    <p>Usando a tag &lt;b&gt;(bold): Já aqui, estou aplicando um <b>negrito não semântico.</b></p>
+    </blockquote>
+
+    <h2>4. Itálico</h2>
+    <p>Também existem duas formas de aplicar, uma de forma semântica e a outra não semântica <br> Ex.: </p>
+    <blockquote><p>Usando a tag &lt;em&gt;: Aqui estou apliando um <em>modo Itálico semântico</em>.</p>
+    <p>Usando a tag &lt;i&gt;: Já aqui, estou aplicando o <i>modo Itálico não semântico</i>.</p></blockquote>
+
+    <h2>5. Marcador</h2>
+    <p>Para marcar um trecho do texto importante, usamos a tag &lt;mark&gt;</p>
+    <blockquote><p>Neste texto, esse <mark>trecho é de suma importância que leia atentamente</mark>.</p></blockquote>
+
+    <h2>6. Fontes de tamanhos variáveis</h2>
+    <p>Aqui usamos <mark>duas</mark> tags para ter a letra grande e pequena, embora, para obter a letra grande, usamos a tag &lt;big&gt; que já entrou para as tags obsoletas, que no futuro, não funcionará mais e, por um outro lado, temos a tag &lt;small&gt; que continua firme e forte, dentro das tags HTML5. <br>Vejamos o exemplo a seguir:</p>
+    <blockquote><p>Aqui na palavra <big>PALAVRÃO</big>, foi usada a tag &lt;big&gt;.</p>
+    <p>Já na palavra <small>PEQUENINO</small>, foi usando a tag &lt;small&gt;.</p></blockquote>
+
+    <h2>7. Texto inserido</h2>
+    <blockquote><p>Para usar o <ins>texto inserido</ins>, usamos a tag &lt;ins&gt;.</p>
+    <p>Também podemos usar a forma não semântica usando a tag &lt;u&gt;: Parabéns para <u>Tu!</u></p></blockquote>
+
+    <h2>8. Texto deletado</h2>
+    <p>Para aplicar em um trecho de um texto que o leitor deve ler porém, não dá a <q>atenção</q> necessária.</p>
+    <blockquote><p>Aqui você pode ler porém, <del>essa parte não há necessidade de ler.</del></p></blockquote>
+
+    <h2>9. Texto Sobrescrito e Subscrito</h2>
+    <p>Caso queira mostrar no seu site um número matemático elevado a tal potencia ou até mesmo o elemento da água por exemplo, usamos as seguntes tags:</p>
+    <blockquote><p>Tag &lt;sup&gt;: X<sup>20</sup>+35</p>
+    <p>Tag &lt;sub&gt;: H<sub>2</sub>O</p></blockquote>
+
+    <h2>10. Código-Fonte</h2>
+    <p>Caso queira em seu site, digitar um código, basta usar a tag &lt;pre&gt; para fazer o aninhamento correto e usar a tag &lt;code&gt; para usar a fonte monoespaçada. <br> Ex.:</p>
+
+    <pre><code>
+        num = int(input('Digite um número'))
+        if num % 2 == 0:
+            print(f'0 número {num} é par')
+        else:
+            print(f'0 número {num} é ímpar')
+        print:('FIM DO PROGRAMA')
+    </code></pre>
+
+    <h2>11. Citação</h2>
+    <p>Existem dois tipos de sitação em HTML5. Citação simples, usando a tag &lt;q&gt; <br>Ex.:</p>
+    <blockquote><p>Como diz o pai de um amigo: <q>O computador é um burro muito rápido.</q></p></blockquote>
+    <p>Agora queremos uma citação de um artigo por exemplo:</p>
+    <p>No artigo citado, encontramos os seguintes dizeres:</p>
+    <blockquote><em>(usando a tag &lt;blockquote&gt;&lt;/blockquote&gt; e a tag &lt;q&gt;&lt;/q&gt;) </em><q><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, tempore. Optio dolor fugiat ipsam aliquam vel, accusamus nulla doloremque sint praesentium quae nobis aperiam, a animi fuga eaque sunt deleniti?</em></q></blockquote>
+    <p>Achou que eu ia digitar um textão né??? KKKKKKKK</p>
+
+    <h2>12. Comentários passando o mouse (usando a tag &lt;abbr&gt;)</h2>
+    <p>Caso você queira adicionar um comentário onde o visitante da sua página vai passar o mouse em cima do texto ou palavra para encontrar um significado. <br>Ex.:</p>
+    <blockquote><p><abbr title="HyperText Markup Language">HTML</abbr></p><br><abbr title="Cascading Style Sheets">CSS</abbr></blockquote>
+
+    <h2>13. Texto invertido</h2>
+    <p>Segundo o meu professor Gustavo Guanabara, essa tag é quase <strong>INÚTIL</strong> porém, é bom conhecer.</p>
+    <blockquote><em>(Usando a tag &lt;bdo&gt; com o parâmetro <b>dir="rtl</b>")</em><p><bdo dir="rtl">Eu estudo HTML, CSS e JAVASCRIPT com o professor Gustavo Guanabara!</bdo></p></blockquote>
+
+    <h2>Listas</h2>
+    <p>Chegamos ao último assunto estudado até agora e um dos mais interessantes. Vamos abordar aqui sobre <em>Listas</em>.</p>
+    <h3>Listas Ordenadas - OL</h3>
+    <p>Usando a tag &lt;ol&gt;, montamos a lista ordenadas:</p>
+    <blockquote><p><ol>
+        <li>Pedro</li>
+        <li>Tiago</li>
+        <li>João</li>
+        <li>Jonas</li>
+    </ol></p></blockquote>
+    <p>Podemos mudar a ordem, usando o parâmetro <em>type</em> e adicionar: 1 - A - a - I - i</p>
+    <h3>Listas Não Ordenadas - UL</h3>
+    <p>Usando a tag &lt;ul&gt;, teremos a lista não ordenada. <br>Exemplo:</p>
+    <blockquote><p><ul>
+        <li>Carro</li>
+        <li>Casa</li>
+        <li>Comida</li>
+        <li>Livros</li>
+        <li>Celular</li>
+        <li>Dinheiro</li>
+    </ul></p></blockquote>
+    <p>Também usando o parâmetro <em>type</em>, podemos mudar as formas que são: <em>disc - circle - square.</em></p>
+    <p>Agora a ultima lista, chamada de Lista de Definição/Mista</p>
+    <h3>Lista de definição/Mistas</h3>
+    Usando a tag &lt;dl&gt;, abrindo e fechando e no meio usamos a tag &lt;dt&lt;(<em>definition term</em>) e a tag &lt;dd&gt;(<em>definition description</em>).
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação utilizada para criar o conteúdo de sites.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação utilizada para a especificação de estilos em sites.</dd>
+        <dt>JavaScript</dt>
+        <dd>Liguagem de programação para criar interatividades em sites.</dd>
+    </dl>
+
+    <p>Aqui finda o conteúdo estudado até agora!</p>
+    <p>Pratica, pratica e pratica leva a perfeição.</p>
+    <p>Jonas Souza - <date>31/12/2022</date></p>
+</body>
+
+</html>

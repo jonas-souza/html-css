@@ -1,0 +1,12 @@
+@charset "uft-8";
+
+#principal {
+    background-color: black;
+    height: 600px;
+}
+
+.map {
+    background-color: white;
+    width: 400px;
+    align: center;
+}

@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background-color: #121212;
+}
+
+.tela{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.circulo{
+    position: absolute;
+    top: 75%;
+    left: -5%;
+    width: 500px;
+    height: 500px;
+    border-radius: 300px;
+    background-color: green;
+}
+
+.circulo2{
+    position: absolute;
+    top: -20%;
+    left: 87%;
+    width: 500px;
+    height: 500px;
+    border-radius: 300px;
+    background-color: green;
+}
+
+.card-login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #252424;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 25px 0px 0px green;
+}
+
+.cima{
+    color: #fff;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.infos input{
+    margin: 5px;
+    padding: 5%;
+    outline: none;
+}
+
+.infos .enviar{
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.infos .enviar:hover{
+    background-color: rgb(3, 104, 3);
+    font-size: 15px;
+    color: #fff;
+}
+
+.baixo{
+    color: #fff;
+}
+
+.baixo a{
+    color: green;
+    text-decoration: none;
+}

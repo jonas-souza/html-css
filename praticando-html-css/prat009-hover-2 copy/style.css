@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+html {
+    background-color: lightcoral;
+    font: normal 1em Arial, Helvetica, Sans-Serif;
+}
+
+body {
+    background-color: white;
+    border-style: groove;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    background-color: red;
+    color: black;
+    width: 650px;
+}
+
+div:hover {
+    color: red;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon/favicon.ico" type="image/x-icon">
+    <title>Praticando Formatação de Texto | Página Inicial</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+<h1>Praticando Formatação de texto em HTML5</h1>
+<h2>Aqui vou colocar em pratica todos as tags ensinadas pelo <abbr title="Professor do Curso em Vídeo">Profº. Gustavo Guanabara</abbr>, referente ao Capítulo 8, das aulas 1, 2 e 3 do curso de HTML5 e CSS3 do Curso em Vídeo.</h2>
+<h2>Sumário</h2>
+    <blockquote>
+        <li>Negrito e Itálico (semântico e não semântico)</li>
+        <li>A tag para usar as aspas</li>
+        <li>Marcardor de texto</li>
+        <li>Modificar a cor do marcador de texto</li>
+        <li>Texto deletado e inserido</li>
+        <li>Sobrescrito e subscrito</li>
+        <li>Texto grande e pequeno</li>
+    </blockquote>
+<h2>Negrito e Itálico</h2>
+<h3>Negrito (Semântico e não semântico)</h3>
+<h4>Negrito semântico</h4>
+    <p>Já nesta frase, <strong><abbr title="usada a tag &lt;strong&gt&lt;/strong&gt;">neste trecho</abbr></strong>, usamos a tag semântica, que é a &lt;strong&gt;.</p>
+<h4>Negrito não semântico</h4>
+    <p>Aqui temos <b><abbr title="usada a tag &lt;b&gt&lt;/b&gt;;">um trecho em negrito</abbr></b> não semântico utilizando a <em>tag</em>&lt;b&gt;.</p>
+<h3>Itálico (Semântico e não semântico)</h3>
+<h4>Itálico semântico</h4>
+    <p>Nesta frase, usaremos a tag &lt;em&gt; aplicada na frase seguinte:
+        <blockquote>
+            <em><abbr title="usando a tag &lt;em&gt;&lt;/em&gt;">Olha, esta frase está em Itálico semântico</abbr>.</em>
+        </blockquote>
+    </p>
+<h3>Itálico não semântico</h3>
+<p>Já na frase abaixo, usaremos a tag &lt;i&gt;:
+    <blockquote>
+        <q><i><abbr title="usando a tag &lt;i&gt;">Nada do que foi será de novo do jeito que já foi um dia.</abbr></i></q>
+    </blockquote>
+    e para usar as <em><q>aspas</q></em>, foi utilizada a tag &lt;q&gt;&lt;/q&gt.
+</p>
+<h2>Marcando um trecho do texto</h2>
+<p>Para marcar um trecho importante de um texto, usaremos a tag &lt;mark&gt;&lt;/mark&gt;:
+    <blockquote>
+        <em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptate eaque consequatur! <mark><abbr title="usando a tag &lt;mark&gt;&lt;/mark&gt;">Molestias distinctio at tempore nam? Sequi</abbr></mark>, reiciendis autem qui doloribus incidunt, dicta obcaecati dolor amet magni eum a?</em>
+    </blockquote>
+</p>
+<p>Para mudar a cor do marcador, digitamos o seguinte código:
+    <blockquote>
+        <code>
+            &lt;mark style="background-color:(a cor que deseja alterar);"&gt;
+        </code>
+    </blockquote>
+</p>
+<h2>Texto deletado e inserido</h2>
+<p>Para acrescentar um trecho do texto deletado, utilizaremos a tag &lt;del&gt. <br> Ex.:
+    <blockquote>
+        Você pode ler tudo aqui, menos <del><abbr title="usando a tag &lt;del&gt;&lt;/del&gt;">isso aqui, por que é IRRELEVANTE!</abbr></del>
+    </blockquote>
+</p>
+<p>Para digitar um texto inserido, utilizaremos a tag &lt;ins&gt;. <br>Ex.:
+    <blockquote><ins><abbr title="usando a tag &lt;ins&gt;&lt;/ins&gt;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed suscipit quasi laborum, inventore eveniet rerum veniam itaque accusantium quae velit eos, soluta aliquam corporis est architecto vel laudantium labore dolores?</abbr></ins></blockquote>
+</p>
+<h2>Sobrescrito e Subscrito</h2>
+<p>Conta matemática: x<sup><abbr title="usando a tag &lt;sup&gt;&lt;/sup&gt;">12</abbr></sup>+46</p>
+<p>Fórmula da água: H<sub><abbr title="usando a tag &lt;sub&gt;&lt;/sub&gt;">2</abbr></sub>O</p>
+<h2>Texto Grande e Pequeno</h2>
+<p>Eu quero que um trecho do parágrafo fique com a fonte grande, usa-se a tag (já obsoleta) &lt;big&gt;, porém, devemos utilizar a CSS para modificar, já que HTML5 trabalha com semântica. Ex.:
+    <blockquote>
+        <em>Lorem ipsum dolor sit amet consectetur adipisicing elit. <big><abbr title="usando a tag &lt;big&gt;&lt;/big&gt;(obsoleta/não semântica)">Dignissimos mollitia ipsum inventore amet voluptate dolor possimus consequatur consequuntur ea magnam et</abbr></big>, ducimus repellendus pariatur quisquam modi iste id tempore repellat?</em>
+    </blockquote>
+<p>
+    Agora quero que um trecho do parágrafo tenha a letra(fonte) pequena (small). <br> Ex.:
+    <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. <small><abbr title="usando a tag &lt;small&gt;&lt;/small&gt;(semântico)">Reprehenderit similique magnam aliquam, aut ipsum consectetur saepe repellendus earum, magni blanditiis atque illum expedita delectus nostrum</abbr></small> tenetur maxime necessitatibus? Optio, unde!
+    </blockquote>
+</p>
+
+</body>
+
+</html>
