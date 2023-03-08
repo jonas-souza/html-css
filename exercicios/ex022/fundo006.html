@@ -8,11 +8,12 @@
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url(img/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
             /*
             background-size: auto; = padrão
             background-size: 99px; = padrão
@@ -21,11 +22,19 @@
             
             background-size: cover; = irá *cobrir* a tela inteira mesmo que corte a imagem preenchendo a tela inteira
             */
+
+            /*Shorthand - Background
+            color > image > repeat > [size] > attachment 
+            size: no manual é válido porém, no navegador, não funciona.
+            */
+
+            background: black url('img/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 700px;
             padding: 10px;
             margin: auto;
             border: 1px solid black;
@@ -37,6 +46,13 @@
     <main>
         <h1>Teste de imagem de Fundo</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium corporis odio ullam consectetur, minus iste soluta illo perspiciatis vitae placeat laudantium impedit aperiam dolores eius nam asperiores quidem ut alias obcaecati tempora est nulla sapiente quibusdam reprehenderit? Odio magnam voluptate quos sunt? Exercitationem debitis labore, quod qui dignissimos culpa similique enim corporis, hic quo cumque. Laudantium, et. Quis, deserunt ab?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium corporis odio ullam consectetur, minus iste soluta illo perspiciatis vitae placeat laudantium impedit aperiam dolores eius nam asperiores quidem ut alias obcaecati tempora est nulla sapiente quibusdam reprehenderit? Odio magnam voluptate quos sunt? Exercitationem debitis labore, quod qui dignissimos culpa similique enim corporis, hic quo cumque. Laudantium, et. Quis, deserunt ab?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium corporis odio ullam consectetur, minus iste soluta illo perspiciatis vitae placeat laudantium impedit aperiam dolores eius nam asperiores quidem ut alias obcaecati tempora est nulla sapiente quibusdam reprehenderit? Odio magnam voluptate quos sunt? Exercitationem debitis labore, quod qui dignissimos culpa similique enim corporis, hic quo cumque. Laudantium, et. Quis, deserunt ab?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium corporis odio ullam consectetur, minus iste soluta illo perspiciatis vitae placeat laudantium impedit aperiam dolores eius nam asperiores quidem ut alias obcaecati tempora est nulla sapiente quibusdam reprehenderit? Odio magnam voluptate quos sunt? Exercitationem debitis labore, quod qui dignissimos culpa similique enim corporis, hic quo cumque. Laudantium, et. Quis, deserunt ab?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium corporis odio ullam consectetur, minus iste soluta illo perspiciatis vitae placeat laudantium impedit aperiam dolores eius nam asperiores quidem ut alias obcaecati tempora est nulla sapiente quibusdam reprehenderit? Odio magnam voluptate quos sunt? Exercitationem debitis labore, quod qui dignissimos culpa similique enim corporis, hic quo cumque. Laudantium, et. Quis, deserunt ab?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium corporis odio ullam consectetur, minus iste soluta illo perspiciatis vitae placeat laudantium impedit aperiam dolores eius nam asperiores quidem ut alias obcaecati tempora est nulla sapiente quibusdam reprehenderit? Odio magnam voluptate quos sunt? Exercitationem debitis labore, quod qui dignissimos culpa similique enim corporis, hic quo cumque. Laudantium, et. Quis, deserunt ab?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium corporis odio ullam consectetur, minus iste soluta illo perspiciatis vitae placeat laudantium impedit aperiam dolores eius nam asperiores quidem ut alias obcaecati tempora est nulla sapiente quibusdam reprehenderit? Odio magnam voluptate quos sunt? Exercitationem debitis labore, quod qui dignissimos culpa similique enim corporis, hic quo cumque. Laudantium, et. Quis, deserunt ab?</p>
+
     </main>
 </body>
 </html>
