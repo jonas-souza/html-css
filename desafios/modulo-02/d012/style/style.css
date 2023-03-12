@@ -11,6 +11,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 html, body {
@@ -23,7 +24,6 @@ header {
     background-color: black;
     color: white;
     text-align: center;
-    font-size: 10vw;
 }
 
 header > h1 {
@@ -53,7 +53,7 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte03);
-    font-size: 3.5vw;
+    font-size: 3.4vw;
 }
 
 section.normal {
