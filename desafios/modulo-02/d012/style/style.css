@@ -8,6 +8,7 @@
     --fonte03: 'Sriracha', cursive;
 }
 
+/* Configurações Globais */
 * {
     margin: 0px;
     padding: 0px;
@@ -20,6 +21,7 @@ html, body {
     font-family: var(--fonte01);
 }
 
+/* Header Edit */
 header {
     background-color: black;
     color: white;
@@ -47,6 +49,7 @@ header a:hover footer a:hover {
     text-decoration: underline;
 }
 
+/* Section Edit */
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -63,17 +66,37 @@ section.normal {
 
 section.imagem {
     background-color: rgb(51, 51, 51);
+    background-size: cover;
+    background-attachment: fixed;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.606);
 }
 
 section.imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.267);
+    background-color: rgba(0, 0, 0, 0.508);
+    text-shadow: 1px 1px 0px black;
 }
 
+section >  p {
+    padding-bottom: 2em;
+}
+
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+}
+
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+}
+
+/* Footer Edit */
 footer {
     background-color: black;
     color: white;
+    font-size: 9pt;
     text-align: center;
 }
