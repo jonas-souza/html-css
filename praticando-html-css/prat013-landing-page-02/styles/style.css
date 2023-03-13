@@ -2,7 +2,7 @@
 
 
 body {
-    background-color: rgb(34 34 34);
+    background-image: linear-gradient(to right, #30025e, #8964c7, #30025e);
     color: white;
     font-family: 'poppinsregular';
     max-width: 1200px;
@@ -66,6 +66,7 @@ h2 {
 
 span {
     color: rgb(132 14 201);
+    text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.683);
 }
 
 p {
