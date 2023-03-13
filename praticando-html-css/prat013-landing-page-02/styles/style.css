@@ -17,7 +17,7 @@ header {
     align-items: center;
 }
 
-li {
+a {
     display: inline-block;
     margin: 20px;
 }
@@ -93,6 +93,9 @@ form [type="submit"] {
 }
 
 form [type="submit"]:hover {
+    background-color: white;
+    color: rgb(132 14 201);
+    transition: 0.5s all;
     cursor: pointer;
 }
 
