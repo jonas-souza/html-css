@@ -57,10 +57,6 @@ body {
     color: #0ef;
 }
 
-nav a:hover ::after {
-    width: 100%;
-}
-
 .home {
     position: relative;
     width: 100%;
