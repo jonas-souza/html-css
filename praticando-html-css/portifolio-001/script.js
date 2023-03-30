@@ -12,7 +12,7 @@
 // Primeiro formato usando JS puro
 const typing = document.querySelector('[data-js="typing"]')
 
-const messages = ['Estudando para ser', 'Desenvolvedor Front-End', 'Músico']
+const messages = ['Estudante', 'Desenvolvedor', 'Front-End', 'Músico', 'apaixonado por', 'Tecnologia']
 
 let messageIndex = 0
 let characterIndex = 0
@@ -34,4 +34,4 @@ const type = () => {
     }
 }
 
-setInterval(type, 150)
+setInterval(type, 300)
